@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #6fa8dc;
+    margin: 0;
+    padding: 0;
+    color: black;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-image:linear-gradient(to right, #8e7cc3, rgb(136, 0, 95) ) ;
+}
+
+nav {
+    text-align: center;
+       background: linear-gradient(270deg,  #d9b8ff, #ca00ca, #ff00bf, #ff00f2);
+  background-size: 600% 600%;
+  animation: move 6s ease infinite;
+    padding: 10px;
+}
+
+nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+main {
+    background-image: linear-gradient(to right, #9fc5e8, rgb(0, 255, 200)  );
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h2 {
+    text-align: center;
+ 
+}
+
+.owner {
+    font-weight: bold;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    background-image:linear-gradient(to right, #8e7cc3, rgb(136, 0, 95) ) ;
+    padding: 15px;
+}
+
+.phone {
+    font-weight: bold;
+}
+h3{
+    text-align: center;
+}
+h1{
+       background: linear-gradient(270deg, #00ff00, #3333ff, #00ffcc, #00ff9d);
+  background-size: 600% 600%;
+  animation: move 6s ease infinite;                                                    
+  -webkit-background-clip: text;
+  color: transparent;
+   box-shadow: 0 15px 40px rgba(5, 180, 72, 0.623);
+   font-size: 45px;
+}
+footer p{
+    color: rgb(247, 0, 255);
+  text-shadow:
+    0 0 5px rgb(255, 0, 179),
+    0 0 15px rgb(255, 0, 179),
+    0 0 30px rgb(255, 0, 179);
+    font-size: 20px;
+}
+main p,h2, h3, li, ol{
+    background: linear-gradient(270deg, #00ff00, #3333ff, #00ffcc, #00ff9d);
+  background-size: 600% 600%;
+  animation: move 6s ease infinite;
+  margin: 0px;
+   font-size: 40px;
+}
+@keyframes move {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
